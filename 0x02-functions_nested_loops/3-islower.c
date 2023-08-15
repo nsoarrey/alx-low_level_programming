@@ -1,13 +1,27 @@
 #include "main.h"
 
+#include "main.h"
+
 /**
- * add - Add two integers
- * @x: int type number
- * @y: int type number
- * Return: result of addition
+ * _islower - Return 1 if letter is lowercase, 0 if not.
+ * @c: char type letter
+ * Return: 1 if lowercase, 0 if not lowercase
  */
 
-int add(int x, int y)
+int _islower(int c)
 {
-	return (x + y);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
+
+
+
+
+
+
+
+
+
+
