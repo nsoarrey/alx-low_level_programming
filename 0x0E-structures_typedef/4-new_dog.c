@@ -28,7 +28,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(p);
 		return (NULL);
 	}
-	for (i = 0; i < sizeof(p->name); i++)
+	for (i = 0; i < len1 + 1; i++)
 	{
 		p->name[i] = name[i];
 	}
@@ -40,7 +40,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(p);
 		return (NULL);
 	}
-	for (j = 0; j < sizeof(p->owner); j++)
+	for (j = 0; j < len2 + 1; j++)
 	{
 		p->owner[j] = owner[j];
 	}
