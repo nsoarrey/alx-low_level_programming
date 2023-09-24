@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * new_dog:creates a structure of type dog_t
+ * new_dog - creates a structure of type dog_t
  * @name: name of dog.
  * @age: age of dog.
  * @owner: owner.
@@ -31,7 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	p->name[i] = '\0';
 	p->age = age;
 	p->owner = malloc(sizeof(p->owner) - 1);
-	if (!p->name)
+	if (!p->owner)
 	{
 		free(p->name);
 		free(p);
