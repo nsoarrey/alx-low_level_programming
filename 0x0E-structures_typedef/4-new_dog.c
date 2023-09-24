@@ -32,7 +32,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		p->name[i] = name[i];
 	}
-	p->name[i] ='\0';
+	p->name[i] = '\0';
 	p->age = age;
 	p->owner = malloc(len2 + 1);
 	if (!p->owner)
