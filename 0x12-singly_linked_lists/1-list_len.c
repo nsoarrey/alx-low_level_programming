@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * list_len - calculates number of elements in a list.
  * @h: pointer to list of type list_t.
