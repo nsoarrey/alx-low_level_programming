@@ -4,7 +4,7 @@
 #include "lists.h"
 /**
  * get_dnodeint_at_index - returns node at index
- * @h: pointer to head of doubly linked list.
+ * @head: pointer to head of doubly linked list.
  * @index: node index.
  * Return: pointer to nth node.
  */
@@ -19,7 +19,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	{
 		head = head->prev;
 	}
-	while (p->next != NULL)
+	while (p != NULL)
 	{
 		if (count == index)
 			break;
