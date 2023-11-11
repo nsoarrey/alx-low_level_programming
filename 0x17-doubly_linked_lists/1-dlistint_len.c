@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * dlistint_t - counts the number of elements in a linked dlistint_t list.
+ * dlistint_len - counts the number of elements in a linked dlistint_t list.
  * @h: pointer to linked list.
  * Return: number of elements.
  */
